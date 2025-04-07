@@ -1,4 +1,4 @@
-remote_theme: pages-themes/midnight
+remote_theme: samarsault/texture
 plugins:
 - jekyll-remote-theme
 title: Alex's Site!!!1!
