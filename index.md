@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Alex's Site"
+title: "Home"
 ---
 
 # Hi there 😳
