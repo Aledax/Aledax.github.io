@@ -5,5 +5,5 @@ title: "Alex's Site"
 
 # Hi there 😳
 
-- [About Me](/about/)
-- [Project](/projects/)
+- [About Me](/about.md)
+- [Projects](/projects.md)
