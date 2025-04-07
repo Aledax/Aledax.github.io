@@ -1,6 +1,2 @@
 title: Alex's Site!!!1!
 description: Where do you think you're looking?
-
-remote_theme: pages-themes/midnight@v0.2.0
-plugins:
-- jekyll-remote-theme
