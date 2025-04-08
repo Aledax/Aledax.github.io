@@ -1,4 +1,16 @@
----
----
+body {
+    background: #222;
+    color: #ddd;
+    font-family: snas-serif;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
 
-@import "midnight";
+a {
+    color: #33ccff;
+}
+
+header, footer {
+    text-align: center;
+}
