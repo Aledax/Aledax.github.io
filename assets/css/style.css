@@ -1,0 +1,37 @@
+body {
+    background-image: url('../images/hex-bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    color: #ddd;
+    font-family: sans-serif;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #33dd55;    
+}
+
+a:hover, a:active {
+    color: #55ff77;
+}
+
+.container {
+    background-color: #00000077;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+a.text-title {
+    font-family: url('../fonts/NowAlt-Regular.otf');
+    font-size: 64px;
+}
