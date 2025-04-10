@@ -35,6 +35,9 @@ a:hover, a:active {
     padding-right: 50px;
     padding-top: 40px;
     height: 100vh;
+    container-type: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .container {
