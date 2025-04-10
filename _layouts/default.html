@@ -8,14 +8,18 @@
     </head>
 
     <body>
-        <div class="container">
-            <a class="text-title" href="<< "/" | relative_url }}">{{ site.title }}</a>
-        </div>
-        <main>
-            {{ content }}
-        </main>
-        <div class="container">
-            <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+        <div class="main-column">
+            <div class="container">
+                <a class="text-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            </div>
+            <main>
+                <div class="container">
+                    {{ content }}
+                </div>
+            </main>
+            <div class="container">
+                <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+            </div>
         </div>
     </body>
 
