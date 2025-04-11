@@ -9,15 +9,13 @@
 
     <body>
         <div class="main-column">
-            <div class="container">
-                <a class="text-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            <div class="container centered-text">
+                <a class="text-title" href="{{ '/' | relative_url }}">~ {{ site.title }} ~</a>
             </div>
             <main>
-                <div class="container">
-                    {{ content }}
-                </div>
+                {{ content }}
             </main>
-            <div class="container">
+            <div class="footer">
                 <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
             </div>
         </div>

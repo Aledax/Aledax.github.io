@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "My Firs tPost"
+title: "Pre-Exchange Photo Dump"
+image: IMG_1067.jpg
 date: 2025-04-07
-categories: Life
+categories: [Photos]
+description: My first photo dump!
 ---
 
-wow uhh hey guys what's uppp
+there's literally nothing here lol
