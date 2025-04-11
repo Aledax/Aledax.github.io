@@ -47,6 +47,12 @@ a:hover, a:active {
     flex-direction: column;
 }
 
+@media (max-width: 768px) {
+    .main-column {
+        max-width: 100%;
+    }
+}
+
 .container {
     background-color: #00000044;
     border-radius: 10px;
