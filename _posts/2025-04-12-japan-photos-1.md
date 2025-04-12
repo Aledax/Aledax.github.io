@@ -4,7 +4,7 @@ title: "Japan Photos 1"
 image: IMG_1137.jpg
 date: 2025-04-12
 categories: [Japan, Gallery]
-description: From my first two weeks!
+description: Photos from my first two weeks!
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/style_photos.css' | relative_url }}">
