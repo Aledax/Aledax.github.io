@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'oxanium';
+    src: url('../fonts/Oxanium-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'oxanium';
+    src: url('../fonts/Oxanium-Medium.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'glacialindifference';
+    src: url('../fonts/GlacialIndifference-Regular.otf');
+    font-weight: 300;
+}
+
 div.post-container-a {
     display: flex;
     flex-direction: row;
@@ -49,19 +67,22 @@ img.post-image {
 }
 
 div.post-title {
+    font-family: 'oxanium';
     font-weight: 400;
     font-size: 24px;
     color: #6af4af;
 }
 
 div.post-date {
+    font-family: 'oxanium';
     font-weight: 400;
     font-size: 18px;
-    margin-top: 5px;
+    margin-top: 6px;
     color: #ddffee;
 }
 
 div.post-category {
+    font-family: 'glacialindifference';
     font-weight: 400;
     font-size: 12px;
     color: black;
@@ -71,8 +92,9 @@ div.post-category {
 }
 
 div.post-description {
+    font-family: 'glacialindifference';
     font-weight: 300;
     font-size: 16px;
-    margin-top: 5px;
-    color: #ddffee;
+    margin-top: 0px;
+    color: #ddffeecc;
 }

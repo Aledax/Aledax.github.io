@@ -4,6 +4,12 @@
     font-weight: 300;
 }
 
+@font-face {
+    font-family: 'glacialindifference';
+    src: url('../fonts/GlacialIndifference-Regular.otf');
+    font-weight: 300;
+}
+
 div.gallery-row {
     display: flex;
     flex-direction: row;
@@ -24,12 +30,9 @@ div.gallery-entry {
     flex: 1;
 }
 
-div.gallery-entry a img {
-    height: 100%;
-    width: 100%;
+div.gallery-entry a {
+    display: block;
     overflow: hidden;
-    object-fit: cover;
-    object-position: center;
     border-radius: 7px;
     border-width: 3px;
     border-color: #ddffee22;
@@ -38,19 +41,31 @@ div.gallery-entry a img {
     transition: border-color 0.1s ease;
 }
 
+div.gallery-entry a img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease;
+}
+
 div.gallery-entry p {
-    font-family: 'oxanium';
+    font-family: 'glacialindifference';
     font-weight: 300;
-    font-size: 14px;
-    margin-top: 15px;
+    font-size: 16px;
+    margin-top: 9px;
     margin-bottom: 10px;
-    letter-spacing: 1px;
     opacity: 0.2;
     transition: opacity 0.1s ease;
 }
 
-div.gallery-entry:hover a img {
+div.gallery-entry:hover a {
     border-color: #ddffeeff;
+}
+
+div.gallery-entry:hover a img {
+    transform: scale(1.01);
 }
 
 div.gallery-entry:hover p {
