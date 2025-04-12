@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Japan Photos - 1"
+title: "Japan Photos 1"
 image: IMG_1137.jpg
 date: 2025-04-12
-categories: [Japan, Photos]
-description: First two weeks
+categories: [Japan, Gallery]
+description: From my first two weeks!
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/style_photos.css' | relative_url }}">
 
 <script src="{{ '/assets/js/external-image-link.js' | relative_url }}"></script>
 
-<div class="gallery-column">
+<div class="gallery">
     <div class="gallery-row">
         <div class="gallery-column">
             <div class="gallery-entry">

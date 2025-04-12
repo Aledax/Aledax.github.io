@@ -13,16 +13,13 @@ layout: default
     </head>
 
     <body>
-        <p class="section-header">Recent Posts</p>
-        <p class="section-description">Welcome!</p>
-
         <div>
-            {% for post in site.posts limit: 3 %}
-                <div class="container">
+            {% for post in site.posts %}
+                <div class="container" style="margin-bottom: 30px;">
                     <a href="{{ post.url }}" style="text-decoration: none; color: inherit;">
                         <div class="post-container-a">
                             <div class="post-image-container">
-                                <img src="assets\images\{{ post.date | date: '%Y-%m-%d' }}\{{ post.image }}" class="post-image"/>
+                                <img src="assets/images/{{ post.date | date: '%Y-%m-%d' }}/{{ post.image }}" class="post-image"/>
                             </div>
                             <div class="post-container-b">
                                 <div class="post-container-c">

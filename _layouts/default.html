@@ -10,8 +10,10 @@
     <body>
         <div class="main-column">
             <div class="container centered-text">
-                <a class="text-title" href="{{ '/' | relative_url }}">~ {{ site.title }} ~</a>
+                <a class="text-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
             </div>
+            <p class="section-header">- {{ page.title }} -</p>
+            <p class="section-description">{{ page.description }}</p>
             <main>
                 {{ content }}
             </main>

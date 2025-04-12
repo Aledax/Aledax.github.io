@@ -69,22 +69,22 @@ img.post-image {
 div.post-title {
     font-family: 'oxanium';
     font-weight: 400;
-    font-size: 24px;
+    font-size: 26px;
     color: #6af4af;
 }
 
 div.post-date {
     font-family: 'oxanium';
     font-weight: 400;
-    font-size: 18px;
-    margin-top: 6px;
+    font-size: 22px;
+    margin-top: 4px;
     color: #ddffee;
 }
 
 div.post-category {
     font-family: 'glacialindifference';
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     color: black;
     background-color: #6af4af;
     border-radius: 3px;
@@ -94,7 +94,7 @@ div.post-category {
 div.post-description {
     font-family: 'glacialindifference';
     font-weight: 300;
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 0px;
     color: #ddffeecc;
 }

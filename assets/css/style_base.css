@@ -16,6 +16,11 @@
     font-weight: 300;
 }
 
+@font-face {
+    font-family: 'nasalization';
+    src: url('../fonts/Nasalization Rg.otf');
+}
+
 body {
     background-image: url('../images/hex-bg.png');
     background-size: cover;
@@ -89,17 +94,18 @@ a:hover, a:active {
 }
 
 a.text-title {
-    font-family: 'oxanium';
+    font-family: 'nasalization';
     font-weight: 400;
-    font-size: 64px;
+    font-size: 72px;
     color: #ddffee;
     display: inline-block;
+    text-shadow: 0px 5px 10px rgba(0,0,0,1);
     transition: transform 0.25s ease, color 0.25s ease;
 }
 
 a.text-title:hover {
     transform: scale(1.01);
-    color: #00f078;
+    color: #6af4af;
 }
 
 .footer {

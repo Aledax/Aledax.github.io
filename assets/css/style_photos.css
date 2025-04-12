@@ -10,16 +10,19 @@
     font-weight: 300;
 }
 
+div.gallery {
+    padding: 15px;
+}
+
 div.gallery-row {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    gap: 30px;
+    gap: 35px;
 }
 
 div.gallery-column {
     flex: 1;
-    
 }
 
 div.gallery-entry {
