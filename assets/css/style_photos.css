@@ -1,7 +1,13 @@
 @font-face {
     font-family: 'oxanium';
-    src: url('../fonts/Oxanium-Light.ttf');
+    src: url('../fonts/PoetsenOne-Regular.ttf');
     font-weight: 300;
+}
+
+@font-face {
+    font-family: 'oxanium';
+    src: url('../fonts/PoetsenOne-Regular.ttf');
+    font-weight: 400;
 }
 
 @font-face {
