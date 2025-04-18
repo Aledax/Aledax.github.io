@@ -7,7 +7,7 @@ categories: [Writing]
 description: A poem about a coincidence
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/style_poem.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/style_body.css' | relative_url }}">
 
 <p class="poem">
 ~<br><br>

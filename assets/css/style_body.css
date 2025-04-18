@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'glacialindifference';
+    src: url('../fonts/GlacialIndifference-Regular.otf');
+    font-weight: 300;
+}
+
+.normal {
+    color: #ddffee;
+    font-family: 'glacialindifference';
+    font-size: 18px;
+    letter-spacing: 0.75px;
+    line-height: 150%;
+    margin: 0px;
+    padding: 10px;
+    text-shadow: 0px 5px 5px rgba(0,0,0,1);
+}
+
+.poem {
+    color: #ddffeedd;
+    font-family: 'glacialindifference';
+    font-size: 18px;
+    letter-spacing: 1.25px;
+    line-height: 150%;
+    margin: 0px;
+    padding: 30px;
+    text-shadow: 0px 5px 5px rgba(0,0,0,1);
+}
+
+.wrapped-image {
+    float: right;
+    margin: 25px;
+    display: inline;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
